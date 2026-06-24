@@ -138,7 +138,7 @@ Requirements:
 
 Clone the repository:
 
-git clone https://github.com/Mateus-Auza/smoking-gene-expression-analysis.git
+git clone https://github.com/Mateus-Auza/omics-project/smoking-gene-expression-analysis.git
 
 Open the scripts in the `code/` directory and run them sequentially.
 
