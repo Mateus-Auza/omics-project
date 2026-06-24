@@ -1,4 +1,4 @@
-# Smoking-associated gene expression analysis (GSE994)
+# Smoking-Associated Airway Epithelial Gene Expression Analysis (GSE994)
 
 ## Overview
 
@@ -10,6 +10,20 @@ DOI: [10.1073/pnas.0401422101](https://doi.org/10.1073/pnas.0401422101)
 
 The objective of this report is to reproduce and extend the original findings by investigating how cigarette smoking alters airway epithelial gene expression, and whether these molecular changes persist after smoking cessation.
 
+---
+## Results preview
+
+### Principal Component Analysis
+
+![PCA plot](figures/PCA_plot.png)
+
+Smoking status contributes to transcriptomic variation but does not represent the dominant source of global variability.
+
+### Differential expression analysis
+
+![Volcano plot](figures/volcano_plot.png)
+
+Genome-wide differential expression analysis identifies a robust smoking-associated molecular signature.
 
 ---
 
@@ -32,10 +46,21 @@ Features: 22,215 probe sets
 
 ## Repository structure
 
+## Repository structure
+
 ```text
-├── code/                # R scripts used for the analysis
-├── original_paper/      # Original publication by Spira et al. (2004)
-├── Report.html          # Interactive analysis report
+├── code/
+│   └── Omics_project_LSTAT2340.qmd
+├── figures/
+│   ├── PCA_plot.png
+│   ├── Reanalysis_1_figure_comparison.png
+│   ├── Reanalysis_2_figure_comparison.png
+│   └── volcano_plot.png
+├── original_paper/
+│   └── spira-et-al-2004-effects-of-cigarette-smoke-on-the-human-airway-epithelial-cell-transcriptome.pdf
+├── presentation/
+│   └── Données omiques.pdf
+├── Report.html
 ├── README.md
 └── LICENSE
 ```
@@ -138,10 +163,12 @@ Requirements:
 
 Clone the repository:
 
-git clone https://github.com/Mateus-Auza/omics-project/smoking-gene-expression-analysis.git
+git clone https://github.com/Mateus-Auza/omics-project.git
 
-Open the scripts in the `code/` directory and run them sequentially.
+To reproduce the report:
 
+```bash
+quarto render code/Omics_project_LSTAT2340.qmd
 ---
 
 ## Authors
@@ -150,19 +177,6 @@ Open the scripts in the `code/` directory and run them sequentially.
 **Napolitano Dorian**
 
 Published: May 15, 2026
-
----
-
-## Dataset
-
-Gene Expression Omnibus (GEO):
-
-**GSE994**
-
-Original publication:
-
-Spira et al. (2004)  
-*"Effects of cigarette smoke on the human airway epithelial cell transcriptome"*
 
 ---
 
