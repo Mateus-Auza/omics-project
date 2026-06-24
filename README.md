@@ -6,7 +6,7 @@ This project presents a transcriptomic re-analysis of the landmark study:
 
 **Spira et al. (2004)**  
 *"Effects of cigarette smoke on the human airway epithelial cell transcriptome"*  
-DOI: 10.1073/pnas.0401422101
+DOI: [10.1073/pnas.0401422101](https://doi.org/10.1073/pnas.0401422101)
 
 The objective of this report is to reproduce and extend the original findings by investigating how cigarette smoking alters airway epithelial gene expression, and whether these molecular changes persist after smoking cessation.
 
