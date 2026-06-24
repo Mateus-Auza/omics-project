@@ -172,6 +172,7 @@ quarto render code/Omics_project_LSTAT2340.qmd
 **Napolitano Dorian**
 
 Project completed as part of the LSTAT2340 coursework at Uclouvain.
+
 Project completed: May 2026
 
 ---
