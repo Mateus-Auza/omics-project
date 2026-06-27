@@ -139,7 +139,7 @@ to visualize smoking-associated transcriptomic changes across the complete datas
 
 The complete analysis is available in:
 
-- `Report.html`
+- `report/Report.html`
 
 GitHub may not render large HTML files directly.
 Download the repository and open the file locally in a web browser.
